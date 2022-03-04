@@ -1,0 +1,22 @@
+/*for hello India logo*/
+#brand {
+    font-size: 30px;
+}
+
+/*for navbar contents*/
+#categories li {
+    margin: 0px 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+#categories li:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#navContainer {
+    z-index: 1;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <h2>Technology</h2>
+    <div class="row">
+        <div *ngFor ="let news of technologyNews" class="col-lg-4">
+            <img src="{{news.urlToImage}}" alt="" width="100%">
+            <h5>{{news.title}}</h5>
+            <button class="btn btn-md btn-primary">
+                <a class="link" href="{{news.url}}" target="_blank">Read More</a>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
