@@ -1,0 +1,18 @@
+ul li {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 6px 10px 0px 10px;
+}
+
+.nav-item a:hover {
+    border-bottom: 2px solid #000;
+}
+
+#heading {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.act {
+    border-bottom: 2px solid #000;  
+}

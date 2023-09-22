@@ -1,0 +1,59 @@
+h2 {
+    margin: 0px 40px;
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+.row {
+    margin: 30px 70px;
+}
+
+h5 {
+    padding: 20px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    text-decoration: underline;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    margin: 30px 0px;
+}
+
+#sports {
+    padding: 3% 15%;
+    background-color: #f5f5f5;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img img {
+    width: 150px;
+    height: 120px;
+}
+
+.head {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.head:hover {
+    cursor: pointer;
+}
+
+#heading a {
+    color: #000;
+}
+
+.agency {
+    font-size: 500;
+    color:aqua;
+}

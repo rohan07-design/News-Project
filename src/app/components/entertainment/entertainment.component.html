@@ -1,0 +1,13 @@
+<app-header></app-header>
+
+<section id="entertainment">
+    <div class="row">
+        <div *ngFor ="let enter of entertainmentNews" class="col-lg-4">
+            <img src="{{enter.urlToImage}}" alt="" width="100%">
+            <h5>{{enter.title}}</h5>
+            <button class="btn btn-md btn-primary">
+                <a class="link" href="{{enter.url}}" target="_blank">Read More</a>
+            </button>
+        </div>
+    </div>
+</section>

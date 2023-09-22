@@ -1,0 +1,12 @@
+<app-header></app-header>
+<section id="buisness">
+    <div class="row">
+        <div *ngFor ="let buisness of buisnessNews" class="col-lg-4">
+            <img src="{{buisness.urlToImage}}" alt="" width="100%">
+            <h5>{{buisness.title}}</h5>
+            <button class="btn btn-md btn-primary">
+                <a class="link" href="{{buisness.url}}" target="_blank">Read More</a>
+            </button>
+        </div>
+    </div>
+</section>

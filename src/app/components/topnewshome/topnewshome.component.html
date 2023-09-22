@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <app-header></app-header>
+    <div class="row">
+        <div *ngFor="let item of allNews" class="col-lg-4">
+            <img src="{{item.urlToImage}}" alt="" width="100%">
+            <h5>{{item.title}}</h5>
+            <button class="btn btn-md btn-primary">
+                <a class="link" href="{{item.url}}" target="_blank">Read More</a>
+            </button>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="heading">India Times</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"
+                    routerLink="/" routerLinkActive="act" [routerLinkActiveOptions]="{exact: true}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                    [routerLink]="['/','buisness-news']" routerLinkActive="act">Buisness</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                    [routerLink]="['/','entertainment']" routerLinkActive="act">Entertainment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                    [routerLink]="['/','health']" routerLinkActive="act">Health</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                    [routerLink]="['/','sports']" routerLinkActive="act">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" 
+                    [routerLink]="['/','topnews']" routerLinkActive="act">Top News</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
